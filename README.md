@@ -1,4 +1,6 @@
 IPWall v4.6.1
+Software anti espionaje, añade una capa de seguridad a las personas que usan TOR, permite bloquear con eficiencia todas las IP automatizadas que usa chromium o algún software de windows hace de manera invisible para llevarse tus datos, IPwall lo detecta y lo bloquea por defecto, es un poco fastidioso limpiar las IP de tu preferencia al comienzo, pero si la privacidad de tus datos es aún más importante, ipwall será tu aliado. Es de licencia unlicense lo que significa que puedes mejorarlo a tu gusto. 
+
 IPWall es un panel local para Windows que convierte Windows Defender Firewall en un firewall de tipo allowlist-only: todo el tráfico queda bloqueado por defecto y únicamente pueden comunicarse las IP o redes CIDR incluidas explícitamente en las listas blancas.
 El sistema utiliza PowerShell, Windows Filtering Platform (WFP) y un panel PHP local para administrar las reglas, detectar conexiones bloqueadas y permitir autorizar destinos directamente desde el navegador.
 Funcionamiento
@@ -29,12 +31,7 @@ Filosofía de seguridad
 IPWall trabaja con una política fail-closed: si una dirección no está explícitamente autorizada, debe permanecer bloqueada. Incluso el DNS sigue esta misma regla.
 El estado Modo hermético: ACTIVO únicamente se muestra cuando IPWall puede comprobar que la configuración esperada de Windows Defender Firewall está aplicada correctamente.
 IPWall controla la política que puede administrar mediante Windows Defender Firewall. Una GPO con mayor prioridad, un administrador local, software de seguridad con drivers propios, determinadas VPN/hipervisores o la desactivación del propio firewall pueden alterar ese modelo.
-Descripción corta para GitHub
-También puedes poner esto en el campo About del repositorio:
-Firewall allowlist-only para Windows con panel web, bloqueo IPv4/IPv6, captura WFP de conexiones bloqueadas, agente SYSTEM y administración de whitelist en tiempo real.
 
-Y como subtítulo del README:
-Todo bloqueado salvo lo explícitamente autorizado.
 
 <img width="1892" height="1033" alt="image" src="https://github.com/user-attachments/assets/debeffc5-8687-421b-a8b7-82c79dde0977" />
 <img width="1919" height="1036" alt="image" src="https://github.com/user-attachments/assets/e3d82e4c-991d-4b58-8899-697110156f72" />
