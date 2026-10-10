@@ -18,26 +18,8 @@ Funcionamiento
 - Antes de modificar el firewall se conserva una copia de seguridad .wfw, permitiendo usar Restaurar firewall para volver a la configuración anterior.
 - Incluye scripts de diagnóstico y registros de errores para instalación, aplicación de reglas y ejecución del agente.
 
-- Internet / red
-      │
-      ▼
-Windows Defender Firewall
-      │
-      ├── IP/CIDR en whitelist ─────► ALLOW
-      │
-      └── cualquier otra dirección ─► BLOCK
-                                         │
-                                         ▼
-                                  Evento WFP 5152/5157
-                                         │
-                                         ▼
-                                    agent.ps1
-                                         │
-                                         ▼
-                               runtime\requests.json
-                                         │
-                                         ▼
-                                   Panel IPWall
+<img width="360" height="376" alt="image" src="https://github.com/user-attachments/assets/397d2dac-078e-4144-b75e-bde8698b3e29" />
+
 
   El panel se ejecuta localmente, por ejemplo:
   http://localhost/ipwall/
