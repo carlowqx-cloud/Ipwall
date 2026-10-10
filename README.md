@@ -37,3 +37,6 @@ Y como subtítulo del README:
 Todo bloqueado salvo lo explícitamente autorizado.
 
 <img width="1892" height="1033" alt="image" src="https://github.com/user-attachments/assets/debeffc5-8687-421b-a8b7-82c79dde0977" />
+<img width="1919" height="1036" alt="image" src="https://github.com/user-attachments/assets/e3d82e4c-991d-4b58-8899-697110156f72" />
+
+
