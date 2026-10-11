@@ -1,6 +1,9 @@
-IPWall v4.6.1
-Software anti espionaje, añade una capa de seguridad a las personas que usan TOR, permite bloquear con eficiencia todas las IP automatizadas que usa chromium o algún software de windows hace de manera invisible para llevarse tus datos, IPwall lo detecta y lo bloquea por defecto, es un poco fastidioso limpiar las IP de tu preferencia al comienzo, pero si la privacidad de tus datos es aún más importante, ipwall será tu aliado. Es de licencia unlicense lo que significa que puedes mejorarlo a tu gusto. 
 
+Comentario del autor:
+IPWall v4.6.1 es un Software anti espionaje, bloquea por defecto todas las IP automatizadas que lanza chromium o algún software de windows en segundo plano. Para no estar limpiando las IP a mano el autor combino este sniffer  con una VPN, y la velocidad del renderizado en javascript se hizo más liviano en gran medida (recomiendo que investiguen eso el cambio no fue pequeño). El código fuente es libre, tienes derecho absoluto de hacer lo que quieras, sería ideal en el futuro crear un sistema operativo nativo con IPwall que controle el tráfico desde la tarjeta de red y en el mediano plazo con la llegada de la IA y el espionaje con esta tecnología sería interesante que windows quede encerrado del dockers.
+
+
+Explicación técnica:
 IPWall es un panel local para Windows que convierte Windows Defender Firewall en un firewall de tipo allowlist-only: todo el tráfico queda bloqueado por defecto y únicamente pueden comunicarse las IP o redes CIDR incluidas explícitamente en las listas blancas.
 El sistema utiliza PowerShell, Windows Filtering Platform (WFP) y un panel PHP local para administrar las reglas, detectar conexiones bloqueadas y permitir autorizar destinos directamente desde el navegador.
 Funcionamiento
